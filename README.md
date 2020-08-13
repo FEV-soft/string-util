@@ -1,3 +1,3 @@
-# Strig Utils
+# String Utils
 
 TBD
