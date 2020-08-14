@@ -1,0 +1,26 @@
+{
+    "name": "fev/string-util",
+    "description": "Some utils for work with string in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FEV-soft",
+            "email": "trafaret@trafaret.kiev.ua"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "symfony/polyfill-mbstring": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "ITEA\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ITEA\\Tests\\": "tests"
+        }
+    }
+}
